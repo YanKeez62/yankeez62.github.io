@@ -1,0 +1,170 @@
+:root {
+    --Falu_red: #70281F;
+    --Light_yellow: #F8FFE5;
+    --Light_yellow_hover: #f8ffe5a2;
+    --Charcoal: #2A3D45;
+}
+
+html {
+    color: var(--Light_yellow);
+}
+
+body {
+    background-color: var(--Charcoal);
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--Light_yellow);
+}
+
+a:hover {
+    color: var(--Light_yellow_hover);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 6px solid var(--Falu_red);
+}
+
+header.seul {
+    display: flex;
+    justify-content: center;
+    border-bottom: 6px solid var(--Falu_red);
+}
+
+header h1 {
+    margin: 10px 10px;
+}
+
+main h1 {
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px;
+}
+
+.description p {
+    margin-left: 40px;
+}
+
+div.description {
+    border-bottom: 6px solid var(--Falu_red);
+}
+
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+h1 a img {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease-in-out;
+}
+
+h1 a img:hover {
+    transform: scale(1.10);
+}
+
+div.liste_projets {
+    border-bottom: 6px solid var(--Falu_red);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+div.liste_img_projets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+div.liste_compétences {
+    border-bottom: 6px solid var(--Falu_red);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+}
+
+div.projet img {
+    border-radius: 6px;
+    width: inherit;
+    height: inherit;
+}
+
+div.projet img:hover {
+    zoom: 105%;
+}
+
+
+div.projet {
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 20px solid black;
+    transition: transform 0.3s ease-in-out;
+}
+
+div.projet:hover {
+    transform: scale(1.05);
+}
+
+div.liste_actus {
+    display: flex;
+    flex-direction: column;
+}
+
+p.actus {
+    text-decoration: underline var(--Falu_red);
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 6px dotted var(--Falu_red);
+}
+
+footer h1 {
+    margin: 4px;
+    font-size: 16px;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+footer div {
+    margin: 0 10px;
+}
+
+footer a {
+    margin: 10px 5px;
+}
+
+svg {
+    transition: transform 0.3s ease-in-out;
+}
+
+svg:hover {
+    transform: scale(1.10);
+}

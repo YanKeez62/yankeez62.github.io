@@ -1,0 +1,3 @@
+Falu_red #70281F
+Light_yellow #F8FFE5
+Charcoal #2A3D45
