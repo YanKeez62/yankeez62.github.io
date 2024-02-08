@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     manga.addEventListener('click', function () {
-        window.location.href = "mangalibrary.html"
+        window.location.href = "mangalibrary.html";
     });
 
     // Encre de navigation fluide
