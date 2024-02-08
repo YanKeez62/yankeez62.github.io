@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const equilibrium = document.getElementById("equilibrium");
     const blog = document.getElementById("blog");
     const fakegpt = document.getElementById("fakegpt");
+    const manga = document.getElementById("mangalibrary");
 
     vortex.addEventListener('click', function () {
         window.location.href = "vortex.html";
@@ -23,6 +24,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     fakegpt.addEventListener('click', function () {
         window.location.href = "fakegpt.html";
+    });
+
+    manga.addEventListener('click', function () {
+        window.location.href = "mangalibrary.html"
     });
 
     // Encre de navigation fluide
