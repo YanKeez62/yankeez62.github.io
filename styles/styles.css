@@ -68,10 +68,15 @@ nav li {
     margin: 0 20px;
 }
 
-h1 a img :not(.mangalibrary) {
+h1 a img {
     width: 100px;
     height: 100px;
     transition: transform 0.3s ease-in-out;
+}
+
+img.mangalibrary {
+    width: auto;
+    height: auto;
 }
 
 h1 a img:hover {
