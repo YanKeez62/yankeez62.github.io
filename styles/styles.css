@@ -120,7 +120,6 @@ div.projet img:hover {
     zoom: 105%;
 }
 
-
 div.projet {
     border: 2px solid black;
     border-radius: 6px;
@@ -131,7 +130,32 @@ div.projet {
     transition: transform 0.3s ease-in-out;
 }
 
+
 div.projet:hover {
+    transform: scale(1.05);
+}
+
+div.projet_custom img {
+    border-radius: 6px;
+    width: inherit;
+    height: inherit;
+}
+
+div.projet_custom img:hover {
+    zoom: 105%;
+}
+
+div.projet_custom {
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 10px;
+    width: 1200px;
+    height: 300px;
+    box-shadow: 20px solid black;
+    transition: transform 0.3s ease-in-out;
+}
+
+div.projet_custom:hover {
     transform: scale(1.05);
 }
 
