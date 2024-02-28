@@ -12,7 +12,21 @@ html {
 body {
     background-color: var(--Charcoal);
     margin: 0;
-    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-family: 'Playfair Display',
+        serif;
+}
+
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1em;
 }
 
 a {
@@ -46,12 +60,8 @@ main h1 {
     margin: 10px 10px;
 }
 
-
-.description p {
-    margin-left: 40px;
-}
-
 div.description {
+    margin: 20px;
     border-bottom: 6px solid var(--Falu_red);
 }
 
@@ -222,9 +232,7 @@ svg:hover {
 
 
 @media screen and (max-width: 1023px) {
-    p {
-        font-size: 16px;
-    }
+
 
     .hamburger {
         display: block;
