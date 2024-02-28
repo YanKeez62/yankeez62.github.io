@@ -6,6 +6,12 @@ document.addEventListener('DOMContentLoaded', function () {
     const fakegpt = document.getElementById("fakegpt");
     const manga = document.getElementById("mangalibrary");
     const twitch = document.getElementById("twitch");
+    const hamburger = document.getElementById("hamburger");
+    const nav = document.getElementById("menu");
+    const nava = document.getElementById('nav_a');
+    const nava2 = document.getElementById('nav_a2');
+    const nava3 = document.getElementById('nav_a3');
+    const nava4 = document.getElementById('nav_a4');
 
     vortex.addEventListener('click', function () {
         window.location.href = "vortex.html";
@@ -48,6 +54,34 @@ document.addEventListener('DOMContentLoaded', function () {
                     behavior: 'smooth'
                 });
             }
+        });
+    });
+
+    hamburger.addEventListener('click', function () {
+        nav.classList.add('active');
+    });
+
+    nava.addEventListener('click', function () {
+        setTimeout(function () {
+            nav.classList.remove('active');
+        });
+    });
+
+    nava2.addEventListener('click', function () {
+        setTimeout(function () {
+            nav.classList.remove('active');
+        });
+    });
+
+    nava3.addEventListener('click', function () {
+        setTimeout(function () {
+            nav.classList.remove('active');
+        });
+    });
+
+    nava4.addEventListener('click', function () {
+        setTimeout(function () {
+            nav.classList.remove('active');
         });
     });
 });
