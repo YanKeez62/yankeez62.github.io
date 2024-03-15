@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const fakegpt = document.getElementById("fakegpt");
     const manga = document.getElementById("mangalibrary");
     const twitch = document.getElementById("twitch");
+    const phasmohelp = document.getElementById("phasmohelp");
     const hamburger = document.getElementById("hamburger");
     const nav = document.getElementById("menu");
     const nava = document.getElementById('nav_a');
@@ -38,6 +39,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     twitch.addEventListener('click', function () {
         window.location.href = "twitch.html";
+    });
+    phasmohelp.addEventListener('click', function () {
+        window.location.href = "phasmohelp.html";
     });
 
     // Encre de navigation fluide
