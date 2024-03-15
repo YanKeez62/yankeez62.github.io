@@ -61,7 +61,7 @@ main h1 {
 }
 
 div.description {
-    margin: 20px;
+    padding: 20px;
     border-bottom: 6px solid var(--Falu_red);
 }
 
