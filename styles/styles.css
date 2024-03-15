@@ -79,7 +79,7 @@ nav li {
     margin: 0 20px;
 }
 
-h1 a img {
+h1 a img:not(.phasmohelpLogo) {
     width: 100px;
     height: 100px;
     transition: transform 0.3s ease-in-out;
