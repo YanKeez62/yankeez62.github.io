@@ -1,0 +1,256 @@
+[
+    {
+        "id": 1,
+        "name": "Esprit",
+        "speed": "1,7m/s",
+        "treshold": "50%",
+        "proof1": "images/emf5-icon.png",
+        "proof2": "images/spirit-box-icon.png",
+        "proof3": "images/writing-icon.png",
+        "help1": "Lorsqu'un encens est utilisé sur l'entité, le cooldown entre la fin de la chasse actuelle et la suivante passe à 180s au lieu de 90s pour n'importe quelle autre entité"
+    },
+    {
+        "id": 2,
+        "name": "Spectre",
+        "speed": "1,7m/s",
+        "treshold": "50%",
+        "proof1": "images/emf5-icon.png",
+        "proof2": "images/spirit-box-icon.png",
+        "proof3": "images/dots-icon.png",
+        "help1": "Ne marche pas dans le sel",
+        "help2": "Peut lancer un EMF 2, se téleporter à un joueur et retourner vers sa salle favorite"
+    },
+    {
+        "id": 3,
+        "name": "Fantôme",
+        "speed": "1,7m/s",
+        "treshold": "50%",
+        "proof1": "images/spirit-box-icon.png",
+        "proof2": "images/fingerprints-icon.png",
+        "proof3": "images/dots-icon.png",
+        "help1": "Disparait lorsqu'il est prit en photo"
+    },
+    {
+        "id": 4,
+        "name": "Poltergeist",
+        "speed": "1,7m/s",
+        "treshold": "50%",
+        "proof1": "images/spirit-box-icon.png",
+        "proof2": "images/fingerprints-icon.png",
+        "proof3": "images/writing-icon.png",
+        "help1": "Peut bouger plusieurs objets à la fois de façon puissante avec sa capacité"
+    },
+    {
+        "id": 5,
+        "name": "Banshee",
+        "speed": "1,7m/s",
+        "treshold": "50%",
+        "proof1": "images/fingerprints-icon.png",
+        "proof2": "images/orbs-icon.png",
+        "proof3": "images/dots-icon.png",
+        "help1": "Fait beaucoup d'apparitions chantantes",
+        "help2": "Peut provoquer un cri audible au microphone parabolique",
+        "help3": "La banshee prend pour cible quelqu'un et le chassera uniquement lui (sauf si sa ciible est en dehors de la maison)"
+    },
+    {
+        "id": 6,
+        "name": "Djinn",
+        "speed": "1,7m/s à 2,5m/s si le courant est allumé et que l'entité est à plus de 3m de soi",
+        "treshold": "50%",
+        "proof1": "images/emf5-icon.png",
+        "proof2": "images/fingerprints-icon.png",
+        "proof3": "images/freezing-icon.png",
+        "help1": "Il ne peut pas éteindre le disjoncteur"
+    },
+    {
+        "id": 7,
+        "name": "Cauchemar",
+        "speed": "1,7m/s",
+        "treshold": "40% / 60% en fonction de la luminosité de sa pièce",
+        "proof1": "images/spirit-box-icon.png",
+        "proof2": "images/orbs-icon.png",
+        "proof3": "images/writing-icon.png",
+        "help1": "N'allume jamais les lumières (sauf la TV et les écrans de PC)"
+    },
+    {
+        "id": 8,
+        "name": "Revenant",
+        "speed": "1m/s ou 3m/s s'il vous voit",
+        "treshold": "50%",
+        "proof1": "images/orbs-icon.png",
+        "proof2": "images/writing-icon.png",
+        "proof3": "images/freezing-icon.png",
+        "help1": "Son accélération lorsque le joueur est ressenti ou vu est le seul point reconaissable"
+    },
+    {
+        "id": 9,
+        "name": "Ombre",
+        "speed": "1,7m/s",
+        "treshold": "35%",
+        "proof1": "images/emf5-icon.png",
+        "proof2": "images/writing-icon.png",
+        "proof3": "images/freezing-icon.png",
+        "help1": "Ne fait pas d'interactions ou de chasse quand quelqu'un est dans la même pièce qu'elle",
+        "help2": "Est la seule entité à apparaitre sous forme d'ombre lors d'un rituel (pentagramme) ou la b"
+    },
+    {
+        "id": 10,
+        "name": "Démon",
+        "speed": "1,7m/s",
+        "treshold": "70% / 100% (Capacité)",
+        "proof1": "images/fingerprints-icon.png",
+        "proof2": "images/writing-icon.png",
+        "proof3": "images/freezing-icon.png",
+        "help1": "Son cooldown de chasse est de 20s au lieu de 25s"
+    },
+    {
+        "id": 11,
+        "name": "Yurei",
+        "speed": "1,7m/s",
+        "treshold": "50%",
+        "proof1": "images/orbs-icon.png",
+        "proof2": "images/freezing-icon.png",
+        "proof3": "images/dots-icon.png",
+        "help1": "Seule entité à pouvoir intéragir avec la porte d'entrée hors chasse"
+    },
+    {
+        "id": 12,
+        "name": "Oni",
+        "speed": "1,7m/s",
+        "treshold": "50%",
+        "proof1": "images/emf5-icon.png",
+        "proof2": "images/freezing-icon.png",
+        "proof3": "images/dots-icon.png",
+        "help1": "Ne fait pas de 'brume' lors de chasse"
+    },
+    {
+        "id": 13,
+        "name": "Yokai",
+        "speed": "1,7m/s",
+        "treshold": "50% ou 80%  si on fait du bruit à coté de lui",
+        "proof1": "images/spirit-box-icon.png",
+        "proof2": "images/orbs-icon.png",
+        "proof3": "images/dots-icon.png",
+        "help1": "Il nous entend et nous ressent à 2.5m seulement"
+    },
+    {
+        "id": 14,
+        "name": "Hantu",
+        "speed": "1,44m/s à 2,7m/s selon la température",
+        "treshold": "50%",
+        "proof1": "images/fingerprints-icon.png",
+        "proof2": "images/orbs-icon.png",
+        "proof3": "images/freezing-icon.png",
+        "help1": "Ne peut pas allumer le disjoncteur"
+    },
+    {
+        "id": 15,
+        "name": "Goryo",
+        "speed": "1,7m/s",
+        "treshold": "50%",
+        "proof1": "images/emf5-icon.png",
+        "proof2": "images/fingerprints-icon.png",
+        "proof3": "images/dots-icon.png",
+        "help1": "Ces DOTs n'apparaissent que dans une caméra et sans présence dans sa salle",
+        "help2": "Le goryo n'apparait sur les DOTs que derrière une caméra"
+    },
+    {
+        "id": 16,
+        "name": "Myling",
+        "speed": "1,7m/s",
+        "treshold": "50%",
+        "proof1": "images/emf5-icon.png",
+        "proof2": "images/fingerprints-icon.png",
+        "proof3": "images/writing-icon.png",
+        "help1": "Bruits de pas inaudibles à plus de 12m mais pas les interactions"
+    },
+    {
+        "id": 17,
+        "name": "Onryo",
+        "speed": "1,7m/s",
+        "treshold": "60% / 100% (Capacité)",
+        "proof1": "images/spirit-box-icon.png",
+        "proof2": "images/orbs-icon.png",
+        "proof3": "images/freezing-icon.png",
+        "help1": "Les flammes agissent comme un crucifix",
+        "help2": "Au bout de 3 extinction de bougie, le onryo lancera une chasse"
+    },
+    {
+        "id": 18,
+        "name": "Les jumeaux",
+        "speed": "Un à 1,53m/s et un à 1,87m/s",
+        "treshold": "50%",
+        "proof1": "images/emf5-icon.png",
+        "proof2": "images/spirit-box-icon.png",
+        "proof3": "images/freezing-icon.png",
+        "help1": "Font souvent des doubles intéractions (visibles sur le tableau)"
+    },
+    {
+        "id": 19,
+        "name": "Raiju",
+        "speed": "1,7m/s ou 2,5m/s selon la proximité avec un équipement éléctronique",
+        "treshold": "65%",
+        "proof1": "images/emf5-icon.png",
+        "proof2": "images/orbs-icon.png",
+        "proof3": "images/dots-icon.png",
+        "help1": "Ressent l'éléctronique à 15m au lieu de 10m "
+    },
+    {
+        "id": 20,
+        "name": "Obake",
+        "speed": "1,7m/s",
+        "treshold": "50%",
+        "proof1": "images/emf5-icon.png",
+        "proof2": "images/fingerprints-icon.png",
+        "proof3": "images/orbs-icon.png",
+        "help1": "Peut laisser des empreintes à 6 doigts",
+        "help2": "Il à 6,66% de chance de changer de forme lors d'un clignotement pendant une chasse (il utilisera au moins une fois cette capacité par chasse)",
+        "help3": "L'ultraviolet est obligatoire en 1 ou 2 preuves",
+        "help4": "Les empreintes disparaissent 2 fois plus vite s'il utilise sa capacité"
+    },
+    {
+        "id": 21,
+        "name": "Mimic",
+        "speed": "Selon l'entité immitée",
+        "treshold": "Selon l'entité immitée",
+        "proof1": "images/spirit-box-icon.png",
+        "proof2": "images/fingerprints-icon.png",
+        "proof3": "images/freezing-icon.png",
+        "help1": "Laisse des orbes pour semer le doute"
+    },
+    {
+        "id": 22,
+        "name": "Moroi",
+        "speed": "1,5m/s à 2,25m/s en fonction de la santé mentale et 3,71m/s s'il vous voit",
+        "treshold": "50%",
+        "proof1": "images/spirit-box-icon.png",
+        "proof2": "images/writing-icon.png",
+        "proof3": "images/freezing-icon.png",
+        "help1": "Spirit box guarantie en 2 ou 1 preuve(s)",
+        "help2": "Maudit le joueur lorsque celui-ci l'entend au micro parabolique ou à la spirit-box, ce qui fait que le joueur baisse sa santé mentale 2x plus vite",
+        "help3": "Lorsqu'un encens est utilisé sur l'entité, elle est aveugle 7,5s au lieu de 5s en temps normal"
+    },
+    {
+        "id": 23,
+        "name": "Deogen",
+        "speed": "3m/s de loin et 0.4m/s lorsqu'il est proche",
+        "treshold": "40%",
+        "proof1": "images/spirit-box-icon.png",
+        "proof2": "images/writing-icon.png",
+        "proof3": "images/freezing-icon.png",
+        "help1": "On ne peut pas se cacher de lui",
+        "help2": "Spirit box guarantie en 2 ou 1 preuve(s)"
+    },
+    {
+        "id": 24,
+        "name": "Thaye",
+        "speed": "de 2,75m/s à 1m/s selon le viellissement de l'entité",
+        "treshold": "75% / 15% toujours en fonction du viellissement",
+        "proof1": "images/orbs-icon.png",
+        "proof2": "images/writing-icon.png",
+        "proof3": "images/dots-icon.png",
+        "help1": "N'accelère pas lorsqu'il nous voit",
+        "help2": "Vielli toute les 1 à 2 minutes",
+        "help3": "L'âge donné via la planche de Ouija sera différent selon le viellissement du thaye"
+    }
+]
