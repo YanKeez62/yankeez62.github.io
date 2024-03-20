@@ -89,3 +89,7 @@ a.portfolio {
     text-decoration: none;
     width: 100%;
 }
+
+a.portfolio:hover {
+    color: rgb(210, 210, 210);
+}
