@@ -234,7 +234,7 @@ a#lienSitePhasmo {
     display: flex;
     justify-content: center;
     text-decoration: none;
-    width: 100%;
+    width: fit-content;
     border: 1px solid black;
 }
 
