@@ -235,6 +235,7 @@ a#lienSitePhasmo {
     justify-content: center;
     text-decoration: none;
     width: 100%;
+    border: 1px solid black;
 }
 
 @media screen and (max-width: 1023px) {
