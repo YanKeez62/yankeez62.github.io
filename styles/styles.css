@@ -234,7 +234,8 @@ a#lienSitePhasmo {
     display: flex;
     justify-content: center;
     text-decoration: none;
-    width: fit-content;
+    margin: 5% 0;
+    width: 90%;
     border: 1px solid black;
 }
 
@@ -280,6 +281,7 @@ a#lienSitePhasmo {
     div.projects{
         display: flex;
     }
+
     div.projet img {
         border-radius: 6px;
         width: 100%;
