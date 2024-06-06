@@ -276,6 +276,10 @@ a#lienSitePhasmo {
         transform: translateX(0);
     }
 
+
+    div.projects{
+        display: flex;
+    }
     div.projet img {
         border-radius: 6px;
         width: 100%;
