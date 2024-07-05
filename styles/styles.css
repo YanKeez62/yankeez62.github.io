@@ -238,6 +238,16 @@ a#lienSitePhasmo {
     width: 90%;
 }
 
+p.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.addMargin {
+
+    margin: 20px 0 ;
+}
+
 @media screen and (max-width: 1023px) {
 
 
@@ -274,11 +284,6 @@ a#lienSitePhasmo {
 
     nav.active {
         transform: translateX(0);
-    }
-
-
-    div.projects{
-        display: flex;
     }
 
     div.projet img {
