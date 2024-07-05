@@ -244,8 +244,17 @@ p.centered {
 }
 
 .addMargin {
-
     margin: 20px 0 ;
+}
+
+.addMarginLeft {
+    margin-left: 20px;
+}
+
+.bold {
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 1023px) {
