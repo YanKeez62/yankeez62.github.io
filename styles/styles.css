@@ -257,6 +257,12 @@ p.centered {
     text-decoration: underline;
 }
 
+.articleImg {
+    align-self: center;
+    width: 500px;
+    height: 320px;
+}
+
 @media screen and (max-width: 1023px) {
 
 
