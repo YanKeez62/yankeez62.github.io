@@ -9,6 +9,12 @@ html {
     color: var(--Light_yellow);
 }
 
+video {
+    width : 320px;
+    height: 180px;
+    margin : 20px;
+}
+
 body {
     background-color: var(--Charcoal);
     margin: 0;

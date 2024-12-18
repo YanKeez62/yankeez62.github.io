@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const manga = document.getElementById("mangalibrary");
     const twitch = document.getElementById("twitch");
     const phasmohelp = document.getElementById("phasmohelp");
+    const firsttry = document.getElementById("firstTry");
     const blogStage = document.getElementById("blogStage");
     const hamburger = document.getElementById("hamburger");
     const nav = document.getElementById("menu");
@@ -41,8 +42,13 @@ document.addEventListener('DOMContentLoaded', function () {
     twitch.addEventListener('click', function () {
         window.location.href = "twitch.html";
     });
+
     phasmohelp.addEventListener('click', function () {
         window.location.href = "phasmohelp.html";
+    });
+
+    firsttry.addEventListener('click', function () {
+        window.location.href = "firstTry.html";
     });
 
     blogStage.addEventListener('click', function () {
