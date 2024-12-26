@@ -15,6 +15,12 @@ video {
     margin : 20px;
 }
 
+video.big {
+    width : 1155px;
+    height: 650px;
+    margin : 20px;
+}
+
 body {
     background-color: var(--Charcoal);
     margin: 0;
