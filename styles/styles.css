@@ -298,6 +298,10 @@ p.centered {
     height: 320px;
 }
 
+iframe {
+    margin: 10px 0;
+}
+
 @media screen and (max-width: 1023px) {
 
 

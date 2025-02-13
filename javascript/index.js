@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const vortex = document.getElementById("vortex");
+    const tiktok = document.getElementById("tiktok")
     const myconfig = document.getElementById("myconfig");
     const equilibrium = document.getElementById("equilibrium");
     const blog = document.getElementById("blog");
@@ -53,6 +54,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     blogStage.addEventListener('click', function () {
         window.location.href = "blogStage.html";
+    });
+
+    tiktok.addEventListener('click', function () {
+        window.location.href = "tiktok.html";
     });
 
     // Encre de navigation fluide
