@@ -100,3 +100,18 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+function filterProjects(category) {
+    let projects = document.querySelectorAll('.projet');
+
+    projects.forEach(proj => {
+        if (category === "all" || proj.classList.contains(category)) {
+            proj.classList.add("show");
+        } else {
+            proj.classList.remove("show");
+        }
+    });
+}
+
+// Afficher tous les projets au chargement de la page
+document.addEventListener("DOMContentLoaded", () => filterProjects("all"));

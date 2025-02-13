@@ -42,33 +42,57 @@
                 <p>Je suis également passionné par le Japon, que ce soit les traditions ou les mythes et légendes en
                     passant par l'animation japonaise et les mangas.</p>
                 <p>J'ai une collection de minéraux car je voulais devenir géologue lorsque j'était plus jeune.</p>
-                <p>J'ai aussi une collection de couteau mais uniquement car j'aime le contraste entre leurs beauté et leurs dangerosité</p>
+                <p>J'ai aussi une collection de couteau mais uniquement car j'aime le contraste entre leurs beauté et
+                    leurs dangerosité</p>
                 <p>Je fais du théâtre en amateur depuis 2020</p>
-                <p>Trois petites icones sont disponibles dans le bas de pages à coté de mes informations de contact : </p>
+                <p>Trois petites icones sont disponibles dans le bas de pages à coté de mes informations de contact :
+                </p>
                 <ul>
-                    <li><p>Un lien qui redirige vers mon profil LinkedIn.</p></li>
-                    <li><p>Un lien qui permet de directement télécharger un exemplaire de mon CV.</p></li>
-                    <li><p>Un lien qui redirige vers mon profil Twitch (projet plus personnel).</p></li>
+                    <li>
+                        <p>Un lien qui redirige vers mon profil LinkedIn.</p>
+                    </li>
+                    <li>
+                        <p>Un lien qui permet de directement télécharger un exemplaire de mon CV.</p>
+                    </li>
+                    <li>
+                        <p>Un lien qui redirige vers mon profil Twitch (projet plus personnel).</p>
+                    </li>
                 </ul>
             </div>
         </div>
         <div class="projects" id="projects">
             <h1>Projets :</h1>
             <p class="centered">(vous pouvez cliquer sur les images pour plus de détails)</p>
+            <br>
+            <p class="centered">Options de filtrage :</p>
+            <!-- Boutons de filtre -->
+            <div class="filters">
+                <button onclick="filterProjects('all')">Tous</button>
+                <button onclick="filterProjects('prog')">Programmation</button>
+                <button onclick="filterProjects('web')">Développement Web</button>
+                <button onclick="filterProjects('game')">Jeu Vidéo</button>
+                <button onclick="filterProjects('other')">Autre</button>
+            </div>
             <div class="liste_projets">
-                <div class="projet"><img class="main" id="blogStage" src="img/BLOG STAGES.png" alt="images blog stages"></div>
-                <div class="projet"><img class="main" id="firstTry" src="img/firstTry.png" alt="image 1er jeu sous Unreal Engine 5"></div>
-                <div class="projet"><img class="main" id="twitch" src="img/logo_YK.png" alt="logo chaine twitch"></div>
-                <div class="projet"><img class="main" id="phasmohelp" src="img/Phasmohelp_logo.png" alt="phasmohelp">
+                <div class="projet other"><img class="main" id="blogStage" src="img/BLOG STAGES.png"
+                        alt="images blog stages"></div>
+                <div class="projet game"><img class="main" id="firstTry" src="img/firstTry.png"
+                        alt="image 1er jeu sous Unreal Engine 5"></div>
+                <div class="projet other"><img class="main" id="twitch" src="img/logo_YK.png" alt="logo chaine twitch">
                 </div>
-                <div class="projet"><img class="main" id="vortex" src="img/logo_vortex_png.png" alt="logo vortex"></div>
-                <div class="projet"><img class="main" id="myconfig" src="img/logo_myconfig.png" alt="logo myConfig">
+                <div class="projet web"><img class="main" id="phasmohelp" src="img/Phasmohelp_logo.png"
+                        alt="phasmohelp">
                 </div>
-                <div class="projet"><img class="main" id="equilibrium" src="img/equilibrium.png" alt="logo equilibrium">
+                <div class="projet game"><img class="main" id="vortex" src="img/logo_vortex_png.png" alt="logo vortex">
                 </div>
-                <div class="projet"><img class="main" id="blog" src="img/logo_blog.png" alt="blog"></div>
-                <div class="projet"><img class="main" id="fakegpt" src="img/FakeGPT.png" alt="FakeGPT"></div>
-                <div class="projet"><img class="main" id="mangalibrary" src="img/MangaLibrary_logo.png"
+                <div class="projet web"><img class="main" id="myconfig" src="img/logo_myconfig.png" alt="logo myConfig">
+                </div>
+                <div class="projet game"><img class="main" id="equilibrium" src="img/equilibrium.png"
+                        alt="logo equilibrium">
+                </div>
+                <div class="projet web"><img class="main" id="blog" src="img/logo_blog.png" alt="blog"></div>
+                <div class="projet prog"><img class="main" id="fakegpt" src="img/FakeGPT.png" alt="FakeGPT"></div>
+                <div class="projet web"><img class="main" id="mangalibrary" src="img/MangaLibrary_logo.png"
                         alt="MangaLibrary">
                 </div>
             </div>
@@ -127,7 +151,8 @@
         <div class="actus" id="actus">
             <h1>Quelques actualités :</h1>
             <div class="liste_actus">
-                <p class="actus"> Je suis à la recherche urgente d'un contrat d'alternance dans le milieu du jeu vidéo pour
+                <p class="actus"> Je suis à la recherche urgente d'un contrat d'alternance dans le milieu du jeu vidéo
+                    pour
                     l'année 2024/2025</p>
             </div>
         </div>
