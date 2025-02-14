@@ -139,10 +139,6 @@ div.projet img {
     height: inherit;
 }
 
-div.projet img:hover {
-    zoom: 105%;
-}
-
 div.projet {
     border: 2px solid black;
     border-radius: 6px;
