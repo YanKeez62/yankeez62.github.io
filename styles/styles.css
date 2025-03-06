@@ -9,6 +9,13 @@ html {
     color: var(--Light_yellow);
 }
 
+* {
+    text-shadow: -0.2px -0.2px 0 black,  
+                 0.2px -0.2px 0 black,  
+                 -0.2px 0.2px 0 black,  
+                 0.2px 0.2px 0 black;
+}
+
 video {
     width : 320px;
     height: 180px;
@@ -23,6 +30,7 @@ video.big {
 
 body {
     background-color: var(--Charcoal);
+    background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png');
     margin: 0;
     font-size: 16px;
     font-family: 'Playfair Display',
@@ -74,9 +82,7 @@ main h1 {
 
 div.description {
     padding: 20px;
-    border-bottom: 6px solid var(--Falu_red);
 }
-
 
 nav ul {
     display: flex;
@@ -204,6 +210,7 @@ div.projet_custom:hover {
 div.liste_actus {
     display: flex;
     flex-direction: column;
+    border-bottom: 6px solid var(--Falu_red);
 }
 
 p.actus {
@@ -296,6 +303,32 @@ p.centered {
 
 iframe {
     margin: 10px 0;
+}
+
+.AnimMachine {
+    font-family: monospace;
+    font-size: 2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid white;
+    display: inline-block;
+    animation: typing 3s steps(16, end) forwards, blink 0.7s infinite;
+    animation-delay: 0s, 3s;
+}
+  
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: calc(16ch);
+  }
+}
+  
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
 
 @media screen and (max-width: 1023px) {

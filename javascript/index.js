@@ -1,4 +1,13 @@
 document.addEventListener('DOMContentLoaded', function () {
+    function restartAnimation() {
+        let titleAnim = document.querySelector(".AnimMachine");
+        titleAnim.style.animation = "none";
+        void titleAnim.offsetWidth;
+        titleAnim.style.animation = "typing 3s steps(16, end) forwards, blink 0.7s infinite";
+    }
+      
+    setInterval(restartAnimation, 15000);
+      
     const vortex = document.getElementById("vortex");
     const tiktok = document.getElementById("tiktok")
     const myconfig = document.getElementById("myconfig");

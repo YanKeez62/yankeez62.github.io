@@ -1,63 +1,41 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="styles/styles.css">
-    <title>Portfolio</title>
-</head>
-
-<body>
-    <header>
-        <h1>MAXIME BAUSSANT</h1>
-        <button class="hamburger" id="hamburger" aria-label="Menu" aria-controls="menu">
-            <span class="hamburger__line"></span>
-            <span class="hamburger__line"></span>
-            <span class="hamburger__line"></span>
-        </button>
-        <nav id="menu">
-            <ul>
-                <li><a id="nav_a" href="#about">À propos</a></li>
-                <li><a id="nav_a2" href="#projects">Projets</a></li>
-                <li><a id="nav_a3" href="#skills">Compétences</a></li>
-                <li><a id="nav_a4" href="#actus">Actualités</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="about" id="about">
-            <h1>À propos de moi :</h1>
-            <div class="description">
-                <p>Je m'appelle Maxime, j'ai 23 ans, je suis en troisième année de Bachelor informatique au campus Ynov
-                    de Lille.</p>
-                <p>Je me suis spécialisé dans la programmation de jeux vidéo cette année.</p>
-                <p>J'ai, avant ça, fait un DUT Réseaux et Télécommunication pendant 2 ans.</p>
-                <p>Pour parler plus personnellement :</p>
-                <p>Je suis passionné de jeux vidéo depuis tout petit et j'aimerai en faire mon métier.</p>
-                <p>Je suis également passionné par le Japon, que ce soit les traditions ou les mythes et légendes en
-                    passant par l'animation japonaise et les mangas.</p>
-                <p>J'ai une collection de minéraux car je voulais devenir géologue lorsque j'était plus jeune.</p>
-                <p>J'ai aussi une collection de couteau mais uniquement car j'aime le contraste entre leurs beauté et
-                    leurs dangerosité</p>
-                <p>Je fais du théâtre en amateur depuis 2020</p>
-                <p>Trois petites icones sont disponibles dans le bas de pages à coté de mes informations de contact :
-                </p>
+        <link rel="stylesheet" href="styles/styles.css">
+        <title>Portfolio</title>
+    </head>
+    
+    <body>
+        <header>
+            <h1 class="AnimMachine">MAXIME BAUSSANT</h1>
+            <button class="hamburger" id="hamburger" aria-label="Menu" aria-controls="menu">
+                <span class="hamburger__line"></span>
+                <span class="hamburger__line"></span>
+                <span class="hamburger__line"></span>
+            </button>
+            <nav id="menu">
                 <ul>
-                    <li>
-                        <p>Un lien qui redirige vers mon profil LinkedIn.</p>
-                    </li>
-                    <li>
-                        <p>Un lien qui permet de directement télécharger un exemplaire de mon CV.</p>
-                    </li>
-                    <li>
-                        <p>Un lien qui redirige vers mon profil Twitch (projet plus personnel).</p>
-                    </li>
+                    <li><a id="nav_a" href="#about">À propos</a></li>
+                    <li><a id="nav_a2" href="#projects">Projets</a></li>
+                    <li><a id="nav_a3" href="#skills">Compétences</a></li>
+                    <li><a id="nav_a4" href="#actus">Actualités</a></li>
                 </ul>
+            </nav>
+        </header>
+        <main>
+        <div class="actus" id="actus">
+            <h1>Quelques actualités :</h1>
+            <div class="liste_actus">
+                <p class="actus"> Je suis à la recherche urgente d'un stage de 12 semaines dans le milieu du jeu vidéo
+                    pour Juin 2025</p>
+                    <p class="actus"> Je recherche également une alternance dans le même milieux pour les années 2025-2026 et 2026-2027</p>
             </div>
         </div>
         <div class="projects" id="projects">
@@ -65,7 +43,6 @@
             <p class="centered">(vous pouvez cliquer sur les images pour plus de détails)</p>
             <br>
             <p class="centered">Options de filtrage :</p>
-            <!-- Boutons de filtre -->
             <div class="filters">
                 <button onclick="filterProjects('all')">Tous</button>
                 <button onclick="filterProjects('prog')">Programmation</button>
@@ -97,7 +74,7 @@
                 </div>
                 <div class="projet other"><img class="main" id="tiktok" src="img/logo_tiktok.png"
                         alt="image logo tiktok"></div>
-            </div>
+                    </div>
         </div>
         <div class="skills" id="skills">
             <h1>Mes compétences :</h1>
@@ -153,11 +130,37 @@
                 </div>
             </div>
         </div>
-        <div class="actus" id="actus">
-            <h1>Quelques actualités :</h1>
-            <div class="liste_actus">
-                <p class="actus"> Je suis à la recherche urgente d'un stage de 12 semaines dans le milieu du jeu vidéo
-                    pour Juin 2025</p>
+        <div class="about" id="about">
+            <h1>À propos de moi :</h1>
+            <div class="description">
+                <p>Bonjour ! Je m'appelle Maxime, j'ai 23 ans, je suis en troisième année de Bachelor informatique au campus Ynov
+                    de Lille.</p>
+                <p>Je me suis spécialisé dans la programmation de jeux vidéo cette année.</p>
+                <p>J'ai, avant ça, fait un DUT Réseaux et Télécommunication pendant 2 ans.</p>
+                <p>Pour parler plus personnellement :</p>
+                <p>Je suis passionné de jeux vidéo depuis tout petit et j'aimerai en faire mon métier.</p>
+                <p>Je suis également passionné par le Japon, que ce soit les traditions ou les mythes et légendes en
+                    passant par l'animation japonaise et les mangas.</p>
+                <p>J'ai une collection de minéraux car je voulais devenir géologue lorsque j'était plus jeune.</p>
+                <p>J'ai aussi une collection de couteau mais uniquement car j'aime le contraste entre leurs beauté et
+                    leurs dangerosité</p>
+                <p>Je fais du théâtre en amateur depuis 2020</p>
+                <p>Trois petites icones sont disponibles dans le bas de pages à coté de mes informations de contact :
+                </p>
+                <ul>
+                    <li>
+                        <p>Un lien qui redirige vers mon profil LinkedIn.</p>
+                    </li>
+                    <li>
+                        <p>Un lien qui permet de directement télécharger un exemplaire de mon CV.</p>
+                    </li>
+                    <li>
+                        <p>Un lien qui redirige vers mon profil Twitch (projet plus personnel).</p>
+                    </li>
+                    <li>
+                        <p>Un lien qui redirige vers mon compte TikTok (projet plus personnel).</p>
+                    </li>
+                </ul>
             </div>
         </div>
     </main>
