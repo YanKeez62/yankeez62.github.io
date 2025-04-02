@@ -340,7 +340,11 @@ iframe {
     animation-delay: 0s, 3s;
 }
 
-
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
   
 @keyframes typing {
   from {
