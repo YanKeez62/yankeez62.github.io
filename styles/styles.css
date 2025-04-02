@@ -216,24 +216,19 @@ div.projet:hover {
     transform: scale(1.05);
 }
 
-div.projet_custom img {
+div.img_projet_custom img {
     border-radius: 6px;
     width: inherit;
     height: inherit;
 }
 
-div.projet_custom {
+div.img_projet_custom {
     border: 2px solid black;
     border-radius: 6px;
     margin: 10px;
     width: 1200px;
     height: 300px;
     box-shadow: 20px solid black;
-    transition: transform 0.3s ease-in-out;
-}
-
-div.projet_custom:hover {
-    transform: scale(1.05);
 }
 
 div.liste_actus {
