@@ -163,6 +163,12 @@ div.projet img {
     height: inherit;
 }
 
+div.img_projet img {
+    border-radius: 6px;
+    width: inherit;
+    height: inherit;
+}
+
 div.projet {
     border: 2px solid black;
     border-radius: 6px;
@@ -172,6 +178,15 @@ div.projet {
     box-shadow: 20px solid black;
     transition: transform 0.3s ease-in-out;
     display: none;
+}
+
+div.img_projet {
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    box-shadow: 20px solid black;
 }
 
 .projet.show {
@@ -205,10 +220,6 @@ div.projet_custom img {
     border-radius: 6px;
     width: inherit;
     height: inherit;
-}
-
-div.projet_custom img:hover {
-    zoom: 105%;
 }
 
 div.projet_custom {
