@@ -22,6 +22,12 @@ video {
     margin : 20px;
 }
 
+img.gif {
+    width : 320px;
+    height: 180px;
+    margin : 20px;
+}
+
 video.big {
     width : 1155px;
     height: 650px;
@@ -173,8 +179,8 @@ div.projet {
     border: 2px solid black;
     border-radius: 6px;
     margin: 10px;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     box-shadow: 20px solid black;
     transition: transform 0.3s ease-in-out;
     display: none;
@@ -341,6 +347,7 @@ iframe {
 }
 
 canvas {
+    z-index: -1;
     position: fixed;
     top: 0;
     left: 0;
