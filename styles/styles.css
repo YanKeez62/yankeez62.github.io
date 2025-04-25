@@ -352,6 +352,11 @@ canvas {
     top: 0;
     left: 0;
 }
+
+div.firstTryMeca, div.firstTryLevel1 {
+    border-top: 6px solid var(--customWhite);
+    padding: 20px;
+}
   
 @keyframes typing {
   from {
