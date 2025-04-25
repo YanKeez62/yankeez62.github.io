@@ -240,7 +240,6 @@ div.img_projet_custom {
 div.liste_actus {
     display: flex;
     flex-direction: column;
-    border-bottom: 6px solid var(--customWhite);
 }
 
 p.actus {
