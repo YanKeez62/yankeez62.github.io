@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
     setInterval(restartAnimation, 15000);
       
     const vortex = document.getElementById("vortex");
+    const hachinosu = document.getElementById("hachinosu");
     const tiktok = document.getElementById("tiktok")
     const myconfig = document.getElementById("myconfig");
     const equilibrium = document.getElementById("equilibrium");
@@ -28,6 +29,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     vortex.addEventListener('click', function () {
         window.location.href = "vortex.html";
+    });
+
+    hachinosu.addEventListener('click', function () {
+        window.location.href = "hachinosu.html";
     });
 
     myconfig.addEventListener('click', function () {
