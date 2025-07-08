@@ -364,6 +364,13 @@ div.hachinosuPlay {
     margin: 20px 0;
 }
 
+div.timestreakDL {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
 div.projects {
     border-top: 6px solid var(--customWhite);
 }
