@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     timestreak.addEventListener('click', function () {
-        window.location.href = "firstTry.html";
+        window.location.href = "timestreak.html";
     });
 
     blogStage.addEventListener('click', function () {
